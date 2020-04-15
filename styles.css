@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(100, 155, 180);
+  color: azure;
+  font-family: "Marvel", sans-serif;
+}
+
+header h1 {
+  color: red;
+  font-size: 100px;
+  text-align: center;
+  letter-spacing: 15px;
+}
+
+nav > ul > li {
+  display: inline-block;
+  color: red;
+  border: solid white 4px;
+  background-color: whitesmoke;
+  letter-spacing: 2px;
+  padding: 8px;
+  border-radius: 7.5px;
+}
+nav li a {
+  color: red;
+  text-decoration: none;
+}
+
+main > ul > li {
+  letter-spacing: 2px;
+}
+
+#ironman {
+  padding: 40px 40px;
+  display: block;
+  margin: auto;
+}
+
+#iamironman {
+  color: brown;
+}
+
+footer {
+  background-color: rgb(56, 51, 39);
+  margin-top: 20px;
+  padding: 140px 20px 40px;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(100, 155, 180),
+    rgb(56, 51, 39)
+  );
+}
+
+footer a {
+  color: red;
+  text-decoration: none;
+}
