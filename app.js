@@ -1,11 +1,12 @@
 // `use strict`;
+confirm("You are entering the Avenger Zone.");
 
 var avenger = prompt("Who is your favorite Marvel character?");
 
-if (avenger == "iron man") {
-  alert("You are correct.");
+if (avenger == "Iron Man") {
+  alert("Same! How cool!");
 } else {
-  alert("Wrong");
+  alert("oh, mine is Iron Man.");
 }
 
 var today = new Date();
