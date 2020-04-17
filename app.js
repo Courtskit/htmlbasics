@@ -25,11 +25,49 @@ function favMarvelMovie() {
   }
 }
 
+// function cachicken() {
+//   var correctAnswer = 7;
+//   for (var i = 0; i < 4; i = i + 1) {
+//     var numberGuess = prompt(
+//       "How many chicken breast does Captain America eat per day?"
+//     );
+//     if (numberGuess == correctAnswer) {
+//       alert("You are correct!");
+//       break;
+//     } else {
+//       alert("Nope, Try again.");
+//     }
+//     // if ((i = 3)) {
+//     //   alert("Nope!");
+//     // }
+//   }
+// }
+
+function cachicken() {
+  var correctAnswer = 7;
+  var guess = "";
+
+  while (guess != correctAnswer) {
+    guess = prompt(
+      "How many chicken breast does Captain America eat per day? Hint: Answer is 1-10"
+    );
+  }
+  alert("Good job!");
+}
+
+// var i = 0;
+// while(i < 10) {
+//   console.log(i);
+//   i++;
+// }
+
 zone();
 
 whoUrFav();
 
 favMarvelMovie();
+
+cachicken();
 
 var today = new Date();
 document.write(today);
